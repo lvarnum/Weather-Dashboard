@@ -40,7 +40,6 @@ button.on("click", function (event) {
 
 $("#clear").on("click", function() {
     $(".list-group").empty();
-    $(".info").empty();
     var lastSearched = {
         cities: [],
         lastCity: ""
