@@ -1,0 +1,67 @@
+.navbar-brand {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  color: white;
+  padding: 0px;
+}
+
+.navbar {
+    background-color: rgba(70, 130, 180, .75);
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-clear-531880.jpg&fm=jpg")
+}
+
+.container-fluid {
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.cities {
+    background-color: rgba(255, 255, 255, .75);
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#search, #clear {
+    background-color: steelblue;
+    color: white;
+}
+
+#clear {
+    margin-top: 30px;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, .75);
+    margin: 30px;
+    border: solid gray 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+.uvItem {
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+
+#temp, #humid, #wind, #uv {
+    font-size: 18px;
+}
+
+.forecast {
+    height: 250px;
+    background-color: steelblue;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
